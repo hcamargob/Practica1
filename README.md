@@ -27,10 +27,20 @@ Después de haber importado la geometría del tablero y ubicarlo en una posició
 ![image](https://user-images.githubusercontent.com/112737454/188255934-ba33f6fc-20b0-4a70-ae06-11a2e03b3da6.png)
 
 ## 4) Generación de trayectorias
-Finalmente, para la creación de trayectorias, se sigue en el bloque de funciones de "Programación de trayectorias", donde se selecciona la función de "Rutas" y se elige "Trayectoria automática". Posteriormente se elige la geometría de las letras en el tablero y se crea un algoritmo de posiciones a seguir por el robot.
+Finalmente, para la creación de trayectorias, se sigue en el bloque de funciones de "Programación de trayectorias", donde se selecciona la función de "Rutas" y se elige "Trayectoria automática". Posteriormente se elige la geometría de las letras en el tablero y se crea un algoritmo de posiciones a seguir por el robot. Finalmente estas trayectorias se reorganizan respecto al TCP de la herramienta.
 
 ![image](https://user-images.githubusercontent.com/112737454/188256082-23f2ff26-76eb-4156-a3b4-e7c2b8f03bc6.png)
+![image](https://user-images.githubusercontent.com/112737454/188256409-6f764038-eef5-4adf-9f1e-65d3ba85bead.png)
+
+## 5) Programación en RAPID
+El último paso es programar y simular las trayectorias, para esto, se accede al panel de RAPID, donde podemos observar los "patch" o trayectorias generadas en la sección anteriores, Estas secuencias se tienen que unir a un main y finalmente se reproduce la secuencia.
+
+![image](https://user-images.githubusercontent.com/112737454/188256533-d8ed5163-8227-4a16-bd73-5921fd6cff8a.png)
+## 6) Resultados
+El programa generado y probado en la sección anterior se exportó a un dispositivo de almacenamiento USB, y finalmente se probó en el robot IRB140 del laboratorio LabSIR. Primero ubicando el tablero respecto a la trayectoria (video 1) y después configurando el robot respecto al tablero (video 2). El resultado fue el siguiente
+
+![image](https://user-images.githubusercontent.com/112737454/188256638-8ed185e2-7ccf-48ce-badb-e890c773401c.png)
+![image](https://user-images.githubusercontent.com/112737454/188256641-3d53ebcb-1c1b-472e-9e47-2cd88282c98c.png)
 
 
-    
 
